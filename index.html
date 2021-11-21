@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Day 6</title>
+  <link rel="stylesheet" href="./style.css">
+  </head> 
+  <body>
+    <div  style="border: 2px solid rebeccapurple; text-align: center; ">
+        <button id=displayTime  >Show Time</button>
+        <p>Time of the day : </p>
+        <span id="btnTime"></span>
+      </div>
+ 
+      
+      <div style=" text-align: center;">
+        <a id="myTextArea"  href="javascript:void(0);"> pop up </a>
+        <a id="fadeMe" href="">fade Me </a>
+      </div>
+    
+      <form action="./submitMe.html" method="get" id="myForm">
+          <label for="userName">User Name</label>
+          <input required type="text" id="userName" name="userName" placeholder="Enter username">
+          <span id="validateUserName"></span>
+
+          <label for="passWord">Password</label>
+          <input required type="password" id="passWord" name="passWord" placeholder="Enter password">
+          <span id="validateUserPass"></span>
+
+          <label for="myEmail">Email</label>
+          <input required type="email" id="myEmail" name="email" placeholder="Enter email">
+          <span id="validateUserEmail"></span>
+
+          <input id="mySubmit" type="submit"> 
+      </form>
+
+      <div id="viewMe">
+        <a id="viewWin"  href="javascript:void(0);"> scrollMeDown </a>
+      </div>
+
+      <div id="text">
+      <input type="text" id="textMes" name="textMes" placeholder="Enter Text">
+      
+          <span id="errorMsg">Erorr Msg:</span>
+      </div>
+      <div id="countDown">
+        <p><B>Graduationdate : Nov 25, 2021 16:37:52</B></p>
+          <span id="months"></span>
+          <span id="days"></span>
+          <span id="hours"></span>
+          <span id="minutes"></span>
+          <span id="seconds"></span>
+    
+        </div>
+
+    <script src="./be.js"></script>
+    <script src="data.js"></script>
+    
+
+  </body>
+</html>
