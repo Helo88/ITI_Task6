@@ -54,7 +54,7 @@ function validateMail(str) {
 document.getElementById("textMes").addEventListener("mouseout", function (event) {
   console.log( "text",document.getElementById("textMes").value)
   if(/^[a-zA-Z]+$/gm.test(document.getElementById("textMes").value)){
-    
+    document.getElementById("errorMsg").innerText="Error Msg :  ";
   }
   else{
     document.getElementById("errorMsg").innerText="Error Msg :"+"letters only";
